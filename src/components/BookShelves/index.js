@@ -88,7 +88,7 @@ class BookShelves extends Component {
     )
 
     return (
-      <div>
+      <div className="con">
         <Header />
         <div className="shelves-container">
           <div className="books-list-con">
@@ -110,11 +110,16 @@ class BookShelves extends Component {
                 <input
                   type="search"
                   className="search-book"
+                  placeholder="Search"
+                  id="search"
                   onChange={this.onSearchInput}
                 />
 
-                <button type="button" className="i-btn">
-                  <AiOutlineSearch className="search-icon-btn" />
+                <button type="button" className="i-btn" htmlFor="search">
+                  <AiOutlineSearch
+                    className="search-icon-btn"
+                    htmlFor="search"
+                  />
                 </button>
               </div>
             </div>

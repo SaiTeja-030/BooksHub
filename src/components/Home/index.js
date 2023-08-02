@@ -61,7 +61,7 @@ class Home extends Component {
     const {getTopRatedItemsList, isLoading, failureView} = this.state
 
     return (
-      <div>
+      <div className="home-home">
         <Header />
         <div className="home-matter-con">
           <h1 className="heading-home">Find Your Next Favorite Books?</h1>

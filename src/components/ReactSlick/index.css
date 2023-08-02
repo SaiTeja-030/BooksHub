@@ -13,19 +13,20 @@
 
   height: 230px; */
   padding-left: 10%;
-  width: 80%;
+  width: 100%;
   display: flex;
   text-align: center;
   justify-content: center;
 }
 
 .book-con {
-  padding: 10px;
+  /* padding: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; */
 
+  padding: 30px;
+}
 .slick-container {
   background-color: rgb(39, 69, 69);
 }

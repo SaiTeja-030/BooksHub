@@ -1,13 +1,18 @@
 .home-matter-con {
-  padding: 20px;
+  padding: 60px;
   color: #1e293b;
 
   background-color: #e5e5e5;
-  min-height: 100vh;
 }
 
 .heading-home {
+  color: var(--light-blue-gray-800, #1e293b);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
   font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 160% */
 }
 
 .des-home {
@@ -16,6 +21,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
+
   line-height: 64px;
   color: #1e293b;
   font-weight: 500;
@@ -33,9 +39,9 @@
   display: flex;
   border-radius: 20px;
   /* margin-top: 50px; */
-  padding-top: 20px;
+
   flex-direction: column;
-  height: 100vh;
+
   justify-content: center;
   background-color: white;
 }
@@ -62,9 +68,8 @@
 }
 
 .retry-btn {
-text-align : center;
-display: flex;
-
+  text-align: center;
+  display: flex;
 }
 
 .footer-con {
@@ -90,11 +95,16 @@ display: flex;
 
 .bold {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .loader-container {
   display: flex;
   justify-content: center;
-  padding-top: 20%;
+  padding-top: 15%;
   align-items: center;
+}
+
+.home-home {
+  width: 100vw;
 }

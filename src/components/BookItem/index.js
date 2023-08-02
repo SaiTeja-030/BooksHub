@@ -12,15 +12,13 @@ const BookItem = props => {
         <img src={coverPic} alt={title} className="s-image" />
         <div className="books-details-container">
           <span className="titles">{title}</span> <br />
-          <span className="author-name">{authorName}</span>
-          <br />
-          <span className="rating">
+          <p className="author-name">{authorName}</p>
+          <p className="rating">
             Avg rating <AiOutlineStar className="star" /> {rating}
-          </span>
-          <br />
-          <span className="status">
-            Status <span className="st">{readStatus}</span>
-          </span>
+          </p>
+          <p className="status">
+            Status: <span className="st">{readStatus}</span>
+          </p>
         </div>
       </div>
     </li>

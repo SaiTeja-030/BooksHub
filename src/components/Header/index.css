@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  height: 89px;
 }
 
 .cont {
@@ -19,8 +20,8 @@
   width: 96px;
   height: 24px;
 
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 20px;
   text-decoration: none;
   list-style-type: none;
   /* identical to box height, or 150% */
@@ -86,9 +87,11 @@
 .yes {
   background-color: #0284c7;
   color: white;
-  width: 60px;
+  width: 80px;
   font-weight: bold;
-  font-family: Inter;
+  border-color: transparent;
+  outline: none;
+  border-radius: 10px;
   border-color: #0284c7;
   cursor: pointer;
   padding: 10px;
@@ -99,9 +102,10 @@
   background-color: white;
   color: #0284c7;
   cursor: pointer;
-  width: 60px;
+  border-radius: 10px;
+  width: 80px;
   font-weight: bold;
-  font-family: Inter;
+  outline: none;
   border-color: white;
   padding: 10px;
   font-style: normal;
