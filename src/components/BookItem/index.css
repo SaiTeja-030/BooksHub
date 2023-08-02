@@ -1,0 +1,73 @@
+.s-image {
+  height: 155px;
+  width: 133px;
+}
+
+.li-item {
+  list-style-type: none;
+  margin: 20px;
+  width: 40%;
+}
+
+.flex-container {
+  display: flex;
+
+  width: 100%;
+}
+
+.books-details-container {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.titles {
+  color: var(--light-blue-gray-700, #334155);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.author-name {
+  color: var(--light-blue-gray-600, #475569);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+}
+
+.rating {
+  color: var(--light-blue-gray-600, #475569);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+}
+
+.status {
+  color: var(--light-blue-gray-600, #475569);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+}
+
+.st {
+  font-weight: bold;
+  color: #0284c7;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+}
+
+.star {
+  color: orange;
+  padding-top: 4px;
+}

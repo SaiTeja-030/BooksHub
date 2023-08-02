@@ -1,0 +1,100 @@
+.home-matter-con {
+  padding: 20px;
+  color: #1e293b;
+
+  background-color: #e5e5e5;
+  min-height: 100vh;
+}
+
+.heading-home {
+  font-size: 40px;
+}
+
+.des-home {
+  font-family: 'Inter';
+  font-style: normal;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 64px;
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.top-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-rated-container {
+  padding: 40px;
+  display: flex;
+  border-radius: 20px;
+  /* margin-top: 50px; */
+  padding-top: 20px;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  background-color: white;
+}
+
+.find-books {
+  align-items: center;
+  margin-top: 22px;
+  margin-left: 20px;
+  background: #0284c7;
+  border-color: #0284c7;
+  cursor: pointer;
+  color: white;
+  height: 42px;
+  outline: none;
+  margin-top: 19px;
+  border-color: #0284c7;
+  border-radius: 8px;
+}
+
+.top-rated {
+  font-weight: bold;
+
+  font-size: 25px;
+}
+
+.retry-btn {
+text-align : center;
+display: flex;
+
+}
+
+.footer-con {
+  padding-top: 100px;
+  text-align: center;
+  margin: 20px;
+}
+
+.error-image {
+  width: 70%;
+  display: flex;
+  padding-left: 30%;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  padding: 10px;
+  height: 40px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+  align-items: center;
+}

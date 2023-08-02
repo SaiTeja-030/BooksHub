@@ -1,0 +1,77 @@
+.books-list-con {
+  background-color: white;
+  padding: 10px;
+  height: 83vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  width: 20%;
+}
+
+.shelves-container {
+  padding: 20px;
+  background: #f8fafc;
+  display: flex;
+}
+
+.books-list {
+  color: var(--light-blue-gray-700, #334155);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 160% */
+}
+
+.books-shelves-search-container {
+  padding: 20px;
+  width: 100%;
+}
+
+.search-row {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10%;
+}
+
+.search-book {
+  outline: none;
+  margin-top: 18px;
+  border-right-color: transparent;
+  height: 23px;
+}
+
+.un-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.un-li-con {
+  height: 59vh;
+  overflow-y: auto;
+}
+
+.un-li-con::-webkit-scrollbar {
+  display: none;
+}
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  left: 50%;
+}
+
+.i-btn {
+  border-left-color: transparent;
+}
+
+.heading-book {
+  color: var(--light-blue-gray-700, #334155);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
